@@ -3,6 +3,7 @@ import VueRouter from 'vue-router';
 import Home from '../views/Home.vue';
 import Wallpapers from '../views/Wallpapers.vue';
 import WallpapersDetails from '../views/WallpapersDetails.vue';
+import RickAndMorty from '../views/RickAndMorty.vue';
 
 Vue.use(VueRouter);
 
@@ -21,6 +22,11 @@ const routes = [
     path: '/wallpapers/:id',
     name: 'wallpapers-details',
     component: WallpapersDetails,
+  },
+  {
+    path: '/rickandmorty',
+    name: 'rickandmorty',
+    component: RickAndMorty,
   },
 ];
 
