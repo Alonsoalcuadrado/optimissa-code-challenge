@@ -44,12 +44,6 @@
         to="/RickAndMorty">
           RickAndMorty
         </router-link>
-        <router-link
-        class="pa-2 white--text text-decoration-none rounded"
-        exact-active-class="secondary"
-        to="/VueGifs">
-          VueGifs
-        </router-link>
       </div>
 
       <v-spacer></v-spacer>
