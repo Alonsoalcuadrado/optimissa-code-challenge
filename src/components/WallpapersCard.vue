@@ -42,7 +42,7 @@
             </v-card>
           </div>
           <div class="d-flex justify-space-between align-end">
-            <router-link :to="{name: 'lol-detail', params: { id: data.ID }}">
+            <router-link :to="{name: 'wallpapers-details', params: { id: data.ID }}">
               <v-btn class="primary">
                 Details
               </v-btn>
